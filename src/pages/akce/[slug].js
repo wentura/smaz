@@ -7,6 +7,28 @@ import {
   ALL_ACTIONS_WITH_SLUG,
 } from "../../../lib/wordpress/api";
 
+export async function getStaticPaths() {
+  const res = await fetcher(ALL_ACTIONS_WITH_SLUG);
+  const allActions = await res.data.posts.nodes;
+  return {
+    paths: allActions.map((action) => `/akce/${action.slug}`) || [],
+    fallback: false,
+  };
+}
+export async function getStaticProps({ params }) {
+  const variables = {
+    id: params.slug,
+    idType: "SLUG",
+  };
+  const data = await fetcher(ACTION_BY_SLUG, { variables });
+  return {
+    props: {
+      postData: data,
+    },
+    revalidate: 10,
+  };
+}
+
 export default function action({ postData }) {
   // const action = ({ postData }) => {
   const actionPost = postData.data.post;
@@ -66,24 +88,3 @@ export default function action({ postData }) {
 }
 
 // export default action;
-export async function getStaticPaths() {
-  const res = await fetcher(ALL_ACTIONS_WITH_SLUG);
-  const allActions = await res.data.posts.nodes;
-  return {
-    paths: allActions.map((action) => `/akce/${action.slug}`) || [],
-    fallback: false,
-  };
-}
-export async function getStaticProps({ params }) {
-  const variables = {
-    id: params.slug,
-    idType: "SLUG",
-  };
-  const data = await fetcher(ACTION_BY_SLUG, { variables });
-  return {
-    props: {
-      postData: data,
-    },
-    revalidate: 10,
-  };
-}
