@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   const allActions = await res.data.posts.nodes;
   return {
     paths: allActions.map((action) => `/akce/${action.slug}`) || [],
-    fallback: false,
+    fallback: "blocking",
   };
 }
 export async function getStaticProps({ params }) {
