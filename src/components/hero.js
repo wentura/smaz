@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container mx-auto flex items-center h-44 justify-between">
         <div className="font-mono text-4xl md:pl-4">
           <Link href="/">
-            <Image src="/../public/logo.png" width={250} height={200} alt="" />
+            <Image src="/logo.png" width={250} height={200} alt="" />
           </Link>
         </div>
         <div className="flex flex-col flex-1 ml-20 md:ml-44 font-light">
