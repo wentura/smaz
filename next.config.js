@@ -6,7 +6,7 @@ module.exports = {
       {
         protocol: "http",
         hostname: "klient001.zbyneksvoboda.cz/**",
-        port: "",
+        // port: "",
         // pathname: "/**",
       },
     ],

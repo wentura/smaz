@@ -1,7 +1,7 @@
-import Actions from "@/components/actions";
-import Carousel from "@/components/carousel";
-import Clanky from "@/components/clanky";
 import Head from "next/head";
+import Actions from "../components/actions";
+import Carousel from "../components/carousel";
+import Clanky from "../components/clanky";
 // import Image from "next/image";
 import { getAllActions } from "../../lib/akceNahled";
 
