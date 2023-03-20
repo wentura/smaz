@@ -7,7 +7,7 @@ import {
   ALL_ACTIONS_WITH_SLUG,
 } from "../../../lib/wordpress/api";
 
-export default function Action({ postData }) {
+export default function action({ postData }) {
   // const action = ({ postData }) => {
   const actionPost = postData.data.post;
   if (!Router.isFallback && !actionPost?.slug) {
@@ -84,5 +84,6 @@ export async function getStaticProps({ params }) {
     props: {
       postData: data,
     },
+    revalidate: 10,
   };
 }
