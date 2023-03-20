@@ -7,7 +7,8 @@ import {
   ALL_ACTIONS_WITH_SLUG,
 } from "../../../lib/wordpress/api";
 
-const action = ({ postData }) => {
+export default function Action({ postData }) {
+  // const action = ({ postData }) => {
   const actionPost = postData.data.post;
   if (!Router.isFallback && !actionPost?.slug) {
     return { notFound: true };
@@ -62,8 +63,9 @@ const action = ({ postData }) => {
       )}
     </div>
   );
-};
-export default action;
+}
+
+// export default action;
 export async function getStaticPaths() {
   const res = await fetcher(ALL_ACTIONS_WITH_SLUG);
   const allActions = await res.data.posts.nodes;
