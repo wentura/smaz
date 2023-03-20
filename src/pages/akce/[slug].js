@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   const allActions = await res.data.posts.nodes;
   return {
     paths: allActions.map((action) => `/akce/${action.slug}`) || [],
-    fallback: "blocking",
+    fallback: false,
   };
 }
 export async function getStaticProps({ params }) {
@@ -31,14 +31,14 @@ export async function getStaticProps({ params }) {
 // export default function action({ postData }) {
 const action = ({ postData }) => {
   const actionPost = postData.data.post;
+  // ! kdyz neni fallback a nic slug to taky neni....
   if (!Router.isFallback && !actionPost?.slug) {
     return { notFound: true };
   }
   return (
     <div>
-      {/* {Router.isFallback ? (
-        <div>Nacitam....</div>
-			) : ( */}
+      {/* if(Router.isFallback) {<div>Nacitani obsahu....</div>}
+      if(!Router.isFallback){" "} */}
       {actionPost && (
         <div>
           <Image

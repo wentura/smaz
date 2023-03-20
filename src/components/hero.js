@@ -19,7 +19,7 @@ export default function Hero() {
           <div className="pt-4 flex justify-end items-center">
             <div className="flex flex-col flex-1 ">
               <div>&nbsp;</div>
-              <div className="border border-t border-neutral-800 mr-8">
+              <div className="border-0 border-t border-neutral-800 mr-8">
                 &nbsp;
               </div>
             </div>
