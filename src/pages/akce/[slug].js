@@ -29,8 +29,8 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export default function action({ postData }) {
-  // const action = ({ postData }) => {
+// export default function action({ postData }) {
+const action = ({ postData }) => {
   const actionPost = postData.data.post;
   if (!Router.isFallback && !actionPost?.slug) {
     return { notFound: true };
@@ -85,6 +85,6 @@ export default function action({ postData }) {
       )}
     </div>
   );
-}
+};
 
-// export default action;
+export default action;
