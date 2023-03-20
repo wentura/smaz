@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu:wght@400;700&display=swap");
 .nadpis {
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC", cursive !important;
 }
 .normalni {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif !important;
 }

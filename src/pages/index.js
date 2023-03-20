@@ -1,9 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
+import { getAllActions } from "../../lib/akceNahled";
 import Actions from "../components/actions";
 import Carousel from "../components/carousel";
 import Clanky from "../components/clanky";
-// import Image from "next/image";
-import { getAllActions } from "../../lib/akceNahled";
 
 export async function getStaticProps() {
   const allActions = await getAllActions();
