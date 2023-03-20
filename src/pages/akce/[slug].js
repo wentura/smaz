@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   const allActions = await res.data.posts.nodes;
   return {
     paths: allActions.map((action) => `/akce/${action.slug}`) || [],
-    fallback: "blocking",
+    fallback: false,
   };
 }
 export async function getStaticProps({ params }) {
@@ -25,7 +25,6 @@ export async function getStaticProps({ params }) {
     props: {
       postData: data,
     },
-    revalidate: 10,
   };
 }
 
@@ -37,9 +36,10 @@ const action = ({ postData }) => {
   }
   return (
     <div>
-      {Router.isFallback ? (
+      {/* {Router.isFallback ? (
         <div>Nacitam....</div>
-      ) : (
+			) : ( */}
+      {actionPost && (
         <div>
           <Image
             src={actionPost.featuredImage.node.sourceUrl}
@@ -82,6 +82,8 @@ const action = ({ postData }) => {
           />
           <Link href="/#akce">zpet na akce</Link>
         </div>
+
+        // )
       )}
     </div>
   );
