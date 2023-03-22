@@ -1,7 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu:wght@400;700&display=swap");
-.nadpis {
+.nadpis,
+.ec-v-form-text,
+.ec-v-form-text h2 span {
   font-family: "Amatic SC", cursive !important;
 }
-.normalni {
+.normalni,
+.ec-v-form-text p a {
   font-family: "Ubuntu", sans-serif !important;
+}
+.ec-v-form-holder {
+  background-color: transparent !important;
+}
+.ec-v-form-text p,
+.ec-v-form-text h2 span {
+  font-size: 1.8rem !important;
+}
+.ec-v-form-submit button {
+  border-radius: 20px !important;
+  background-color: #ea9f45 !important;
+}
+.ec-v-form-text p a {
+  font-size: 0.8rem;
 }

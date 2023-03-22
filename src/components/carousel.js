@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 // import createClient from "wordpress-rest-api";
 
 // const client = new createClient({
@@ -25,11 +27,38 @@
 
 export default function Carousel({ posts }) {
   return (
-    <div>
-      <ul>
-        <li>carousel / hero image + text v pretceni</li>
-        <li>vsechno se z tohodle souboru da smazat az na Carousel fci</li>
-      </ul>
+    <div className="flex flex-col">
+      <div className="flex-1">
+        <Image
+          alt="zodpovedny hub"
+          src="/zh.jpg"
+          width={800}
+          height={500}
+          className="w-full relative"
+        />
+      </div>
+      <div className="relative flex flex-1 flex-col overflow-visible mb-12 items-center">
+        <div className="bg-neutral-100 md:w-4/5 h-auto md:py-8 mt-[-150px] absolute z-20 md:mt-[-200px]">
+          <div className="flex flex-col items-center justify-center pt-4 md:px-20">
+            <h3 className="uppercase font-mono font-extrabold text-2xl lg:text-4xl xs:pb-4 nadpis">
+              Zodpovědný hub
+            </h3>
+            <p className="text-start lg:leading-7 text-xs lg:text-base py-2 px-4">
+              Hub je tu pro vás jako místo, kde se můžete od někoho dalšího
+              dozvědět něco nového. Kde můžete ostatní obohatit o něco, co zase
+              umíte dobře vy. A také kde si můžete vyzkoušet s dětmi hry a
+              materiály od zodpovědné výuky.
+            </p>
+            <Link
+              href="/hub"
+              className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+            >
+              pojďte dál{" "}
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* {posts &&
         posts.map((post) => (
           <div key={post.id}>
