@@ -37,9 +37,45 @@ export default function Hero() {
               </div>
             </div>
             <ul className="flex uppercase justify-between gap-8 pr-2 md:pr-4">
-              <li>FB</li>
-              <li>IG</li>
-              <li>YT</li>
+              <li>
+                <a
+                  href="https://www.facebook.com/zodpovednavyuka"
+                  target="_blank"
+                >
+                  <Image
+                    src="/icons8-facebook.svg"
+                    alt="FB"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/zodpovednavyuka/"
+                  target="_blank"
+                >
+                  <Image
+                    src="/icons8-instagram.svg"
+                    alt="FB"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/@zodpovednavyuka9474"
+                  target="_blank"
+                >
+                  <Image
+                    src="/icons8-youtube-logo.svg"
+                    alt="FB"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -52,7 +88,7 @@ export default function Hero() {
             <li className="py-2">
               <Link href="/#akce">akce</Link>
             </li>
-            <li>YT</li>
+            {/* <li>YT</li> */}
           </ul>
         </div>
       </div>
