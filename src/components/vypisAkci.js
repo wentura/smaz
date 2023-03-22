@@ -39,10 +39,9 @@ export default function VypisAkci() {
                 Bylinková setkání
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-                iusto blanditiis maiores deleniti neque provident suscipit
-                delectus odio architecto repellat tempore in voluptatum debitis
-                officia non, asperiores illum corrupti excepturi.
+                Cyklus setkání nabízí ucelený pohled do světa bylin pro úplné
+                začátečníky, ale i pokročilí bylinkáři si mohou odnést čerstvé
+                poznatky, mnohdy vědecky potvrzené účinky rostlin.
               </p>
               <Link
                 href="/bylinkova_setkani"
