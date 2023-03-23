@@ -41,13 +41,6 @@ export default function Footer() {
           IČ: 09417427
           <br />
           DIČ: CZ09417427
-          <br />
-          <span className="text-[8px]">
-            Společnost zapsána v obchodním rejstříku vedeného
-            <br /> městským soudem v Praze oddíl C, vložka 336069.
-            <br />
-            Jsme plátci DPH.
-          </span>
         </div>
       </div>
       <div className="">

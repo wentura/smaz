@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div className="bg-gradient-to-r from-tmavaCta via-svetlaCta to-tmavaCta w-full">
-      <div className="container mx-auto flex items-center h-44 justify-between">
+      <div className="container mx-auto flex items-center h-24 md:h-44 justify-between">
         <div className="font-mono text-4xl md:pl-4">
           <Link href="/">
             <Image

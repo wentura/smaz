@@ -5,7 +5,7 @@ export default function VypisAkci() {
   return (
     <>
       <div className="pt-12 pb-8" id="akce">
-        <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-4xl pb-2 xs:pb-4 nadpis text-center">
+        <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-5xl pb-2 xs:pb-4 nadpis text-center">
           KALENDÁŘ AKCÍ
         </h3>
         <div className="mx-auto max-w-[600px] p-2">
@@ -38,7 +38,7 @@ export default function VypisAkci() {
               <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-4xl pb-2 xs:pb-4 nadpis">
                 Bylinková setkání
               </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base">
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
                 Cyklus setkání nabízí ucelený pohled do světa bylin pro úplné
                 začátečníky, ale i pokročilí bylinkáři si mohou odnést čerstvé
                 poznatky, mnohdy vědecky potvrzené účinky rostlin.

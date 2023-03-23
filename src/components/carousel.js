@@ -37,10 +37,10 @@ export default function Carousel({ posts }) {
           className="w-full relative"
         />
       </div>
-      <div className="relative flex flex-1 flex-col overflow-visible mb-12 items-center">
-        <div className="bg-neutral-100 md:w-4/5 h-auto md:py-8 mt-[-150px] absolute z-20 md:mt-[-200px]">
+      <div className="relative flex flex-1 flex-col overflow-visible mb-12 md:mb-48 items-center">
+        <div className="bg-neutral-100 md:w-4/5 h-auto md:py-8 mt-[-150px] absolute z-20 md:mt-[-80px]">
           <div className="flex flex-col items-center justify-center pt-4 md:px-20">
-            <h3 className="uppercase font-mono font-extrabold text-2xl lg:text-4xl xs:pb-4 nadpis">
+            <h3 className="uppercase font-mono font-extrabold text-2xl md:text-4xl xs:pb-4 nadpis">
               Zodpovědný hub
             </h3>
             <p className="text-start lg:leading-7 text-xs lg:text-base py-2 px-4">
