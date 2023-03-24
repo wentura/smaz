@@ -30,6 +30,13 @@ export default function Footer() {
           <Link href="tel:+420775554124" className="underline text-sm">
             +420 775 554 124
           </Link>
+          <Link
+            href="https://www.google.com/maps/place/Legion%C3%A1%C5%99%C5%AF+64%2F4,+276+01+M%C4%9Bln%C3%ADk/@50.3523219,14.4730207,17.83z/data=!4m6!3m5!1s0x470bddf957aace29:0x85a034ab59bc61a0!8m2!3d50.3524273!4d14.4736485!16s%2Fg%2F11c24zjfsp"
+            target="_blank"
+            className="underline text-sm"
+          >
+            Legionářů 64, Mělník
+          </Link>
         </div>
         <div className="flex flex-col gap-1 text-[10px]">
           provozovatel

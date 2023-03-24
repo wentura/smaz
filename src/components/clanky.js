@@ -7,7 +7,7 @@ export default function Clanky() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="/zv.jpg"
+            src="/eshop_foto.jpg"
             alt=""
             width="600"
             height="400"

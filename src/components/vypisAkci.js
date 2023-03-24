@@ -4,16 +4,19 @@ import Link from "next/link";
 export default function VypisAkci() {
   return (
     <>
-      <div className="pt-12 pb-8" id="akce">
-        <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-5xl pb-2 xs:pb-4 nadpis text-center">
+      <div className="pt-20 pb-12" id="akce">
+        <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-[64px] pb-2 xs:pb-4 nadpis text-center">
           KALENDÁŘ AKCÍ
         </h3>
         <div className="mx-auto max-w-[600px] p-2">
-          <p className="text-left">
-            Buďte odvážní a přijďte načerpat informace z nějaké úplně nové
-            oblasti.
-            <br />
-            Zajímá vás zdraví, příroda, výchova, péče o tělo, osobní rozvoj.
+          <p className="text-center text-sm md:text-left">
+            Buďte odvážní a přijďte načerpat informace
+            <span className="sm:hidden">.</span>
+            <span className="hidden sm:inline">
+              &nbsp;z nějaké úplně nové oblasti.
+              <br />
+              Zajímá vás zdraví, příroda, výchova, péče o tělo, osobní rozvoj.
+            </span>
             <br />
             Nakoukněte do kalendáře. Vyberte a doražte.
           </p>

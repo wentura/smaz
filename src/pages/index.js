@@ -1,3 +1,4 @@
+import Adresa from "@/components/adresa";
 import VypisAkci from "@/components/vypisAkci";
 import Head from "next/head";
 // import Image from "next/image";
@@ -33,6 +34,9 @@ export default function Home({ allActions }) {
         <Carousel />
         <Clanky />
         <VypisAkci />
+        <div className="max-w-6xl my-20 md:my-40 mx-auto">
+          <Adresa />
+        </div>
         {/* <Actions allActions={allActions} /> */}
       </div>
     </>

@@ -1,4 +1,5 @@
 // import VypisAkci from "@/components/vypisAkci";
+import Adresa from "@/components/adresa";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
@@ -92,6 +93,9 @@ export default function Home({ allActions }) {
           <p className="py-4">
             Pusttě do světa svou fantazii, roztáhněte křídla kreativity a leťte.{" "}
           </p>
+        </div>
+        <div className="pt-12">
+          <Adresa />
         </div>
       </div>
     </>

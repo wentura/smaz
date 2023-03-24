@@ -1,7 +1,8 @@
 // import VypisAkci from "@/components/vypisAkci";
+import Adresa from "@/components/adresa";
 import Head from "next/head";
-import Image from "next/image";
-import Script from "next/script";
+// import Image from "next/image";
+// import Script from "next/script";
 // import { getAllActions } from "../../lib/akceNahled";
 // import Actions from "../components/actions";
 // import Carousel from "../components/carousel";
@@ -68,6 +69,9 @@ export default function Home({ allActions }) {
             příležitost využít.
           </p>
           <p className="py-4">Přijďte si popovídat a poradit se</p>
+        </div>
+        <div className="pt-12">
+          <Adresa />
         </div>
       </div>
     </>
