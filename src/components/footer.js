@@ -25,7 +25,7 @@ export default function Footer() {
             href="mailto:info@zodpovednavyuka.cz"
             className="underline text-sm"
           >
-            info@zodpovednavyuka.cz
+            hub@zodpovednavyuka.cz
           </Link>
           <Link href="tel:+420775554124" className="underline text-sm">
             +420 775 554 124
