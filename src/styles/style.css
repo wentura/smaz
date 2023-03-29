@@ -1,19 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu:wght@400;700&display=swap");
+@font-face {
+  font-family: "noteworthy";
+  src: url("/NoteworthyBold.woff2") format("woff2");
+  src: url("/NoteworthyBold.woff") format("woff");
+  src: url("/NoteworthyBold.ttf") format("truetype");
+  font-display: swap;
+}
 .nadpis,
 .ec-v-form-text,
 .ec-v-form-text h2 span {
-  font-family: "Amatic SC", cursive !important;
+  font-family: noteworthy, cursive !important;
 }
 .normalni,
 .ec-v-form-text p a {
   font-family: "Ubuntu", sans-serif !important;
 }
-.ec-v-form-holder {
+.ec-v-form-holder,
+.ec-v-form-holder-basic {
+  width: 100% !important;
   background-color: transparent !important;
+  /* background-color: red !important; */
 }
 .ec-v-form-text p,
 .ec-v-form-text h2 span {
-  font-size: 1.8rem !important;
+  font-size: 1.2rem !important;
 }
 .ec-v-form-submit button {
   border-radius: 20px !important;

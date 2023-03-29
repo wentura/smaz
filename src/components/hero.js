@@ -5,15 +5,16 @@ export default function Hero() {
   return (
     <div className="bg-gradient-to-r from-tmavaCta via-svetlaCta to-tmavaCta w-full">
       <div className="container mx-auto flex items-center h-24 md:h-44 justify-between">
-        <div className="font-mono text-4xl md:pl-4">
+        <div className="font-mono md:pl-4 flex align-middle content-center">
           <Link href="/">
             <Image
-              src="/logo.png"
-              width={256}
-              height={77}
+              src="/zh_logo.png"
+              width={250}
+              height={100}
               alt="logo Zodpovedny hub"
             />
           </Link>
+          {/* <span class="nadpis text-2xl align-middle">zodpovědný HUB</span> */}
         </div>
         <div className="flex-1 ml-20 md:ml-44 font-light hidden md:flex md:flex-col">
           <ul className="flex uppercase justify-between pr-2 md:pr-4">

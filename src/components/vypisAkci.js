@@ -5,7 +5,7 @@ export default function VypisAkci() {
   return (
     <>
       <div className="pt-20 pb-12" id="akce">
-        <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-[64px] pb-2 xs:pb-4 nadpis text-center">
+        <h3 className="uppercase text-xl md:text-2xl xl:text-4xl pb-2 xs:pb-4 nadpis text-center">
           KALENDÁŘ AKCÍ
         </h3>
         <div className="mx-auto max-w-[600px] p-2">
@@ -38,7 +38,7 @@ export default function VypisAkci() {
               <h4 className="uppercase font-light text-xs normalni pt-2">
                 Cyklus tří setkání: 20.4., 16.5., 15.6. 2023{" "}
               </h4>
-              <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-4xl pb-2 xs:pb-4 nadpis">
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis">
                 Bylinková setkání
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4">

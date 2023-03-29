@@ -20,7 +20,7 @@ export default function Clanky() {
               <h4 className="uppercase font-light text-xs normalni pt-2">
                 vyberte si z naší široké nabídky
               </h4>
-              <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-4xl pb-2 xs:pb-4 nadpis">
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis">
                 E-shop zodopovědná výuka
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
@@ -56,7 +56,7 @@ export default function Clanky() {
               <h4 className="uppercase font-light text-xs normalni pt-2">
                 uprostřed mělníka
               </h4>
-              <h3 className="uppercase font-mono font-extrabold text-4xl lg:text-4xl pb-2 xs:pb-4 nadpis">
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis">
                 SHOWROOM
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
