@@ -21,7 +21,7 @@ export default function Clanky() {
                 vyberte si z naší široké nabídky
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis">
-                E-shop zodopovědná výuka
+                E-shop zodpovědná výuka
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
                 Obchod, který nabízí řešení učitelům a rodičům, kteří chtějí čas
