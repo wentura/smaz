@@ -62,7 +62,7 @@ export default function Home({ allActions }) {
             teoretické přednášky protkané praktickými tipy a ukázkou bylin,
             které si bude možné osahat, očichat, dobře prohlédnout. Poté budeme
             společně tvořit dle tématu workshopu a výsledné dílo si odnesete
-            domů (v břiše nebo v jiném obalu).{" "}
+            domů (v břiše nebo v jiném obalu).
           </p>
           <p className="py-2">
             Předávám především své osobní zkušenosti získané desetiletou praxí s
@@ -72,9 +72,14 @@ export default function Home({ allActions }) {
           <p className="py-2">PharmDr. Lucie Vostatková, Ph.D.</p>
           <p className="py-2">
             Cyklus lze absolvovat celý za zvýhodněnou cenu 1300,- nebo pouze
-            jednotlivé akce za 490,-.
+            jednotlivé akce za 490,- (v ceně jsou zahrnuty suroviny na praktický
+            seminář)
           </p>
-          <h3 className="py-2 pt-8 text-xl lg:text-2xl font-semibold">
+          <p className="py-2">
+            Je potřeba se předem přihlásit. Přihlašovací formuláře jsou u
+            jednotlivých workshopů.
+          </p>
+          <h3 className="py-2 mt-8 text-xl lg:text-2xl font-semibold border-t-2 border-svetlaCta">
             20.4. 2023 Divoké byliny ve stravě
           </h3>
           <ul className="list-disc list-inside">
@@ -87,7 +92,15 @@ export default function Home({ allActions }) {
             <li>Pravidla sběru ve volné přírodě a na co dát pozor.</li>
           </ul>
           <p className="py-4">Praktický workshop: Zelené smoothie</p>
-          <h3 className="py-2 text-xl lg:text-2xl font-semibold pt-8">
+          <p className="mt-2 mb-16 mx-auto text-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScIp08QE2ftJvFb1cJn3bVRuJRUMLMFrMgV6rINprr0Otxppw/viewform"
+              className="py-2 px-8 bg-cta rounded-full"
+            >
+              Přihlásit se na akci
+            </a>
+          </p>
+          <h3 className="py-2 mt-8 text-xl lg:text-2xl font-semibold border-t-2 border-svetlaCta">
             16.5. 2023 Byliny jarního období nejen pro detoxikaci
           </h3>
           <ul className="list-disc list-inside">
@@ -102,8 +115,15 @@ export default function Home({ allActions }) {
           <p className="py-4">
             Praktický workshop: Pesto z divoce rostoucích i pěstovaných bylin
           </p>
-
-          <h3 className="py-2 text-xl lg:text-2xl font-semibold pt-8">
+          <p className="mt-2 mb-16 mx-auto text-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfrGDBrDb9Dtz8tLofAp4VGeIMih4irtvQQSupRu9AJpXYm3g/viewform"
+              className="py-2 px-8 bg-cta rounded-full"
+            >
+              Přihlásit se na akci
+            </a>
+          </p>
+          <h3 className="py-2 mt-8 text-xl lg:text-2xl font-semibold border-t-2 border-svetlaCta">
             15.6. 2023 Letní (svatojánské) byliny
           </h3>
 
@@ -113,7 +133,7 @@ export default function Home({ allActions }) {
             </li>
             <li>Jaké byliny sbírat v létě? Jaké části rostlin?</li>
             <li>
-              Jak je správně sušit a uchovat pro pozdější využití při léčení?{" "}
+              Jak je správně sušit a uchovat pro pozdější využití při léčení?
             </li>
             <li>
               Seznámení s vybranými bylinami, jejich účinky i obsahovými
@@ -122,10 +142,12 @@ export default function Home({ allActions }) {
             <li>Míchání čajových směsí.</li>
           </ul>
           <p className="py-4">Praktický workshop: Bylinková sůl </p>
-
-          <p className="py-8 text-xl lg:text-2xl underline text-center">
-            <a href="mailto:info@zodpovednyhub.cz">
-              přihlaste se na akci zasláním e-mailu
+          <p className="mt-2 mb-16 mx-auto text-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSejdr_E1aZUO4RD51kl2QYYFT7k7EELARrirhvDuXso_2-qMg/viewform"
+              className="py-2 px-8 bg-cta rounded-full"
+            >
+              Přihlásit se na akci
             </a>
           </p>
 
