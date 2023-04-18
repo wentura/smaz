@@ -89,10 +89,10 @@ export default function Home({ allActions }) {
             Cena: 490,- (v ceně zahrnuto 100,- za suroviny a tisk)
           </p>
 
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdSGvCqT3yP514C0d5t_6ijqGQg15KwfbXlxWe5wiA6T7swow/viewform"
-              className="py-2 px-8 bg-cta rounded-full"
+              className="py-2 px-8 bg-cta rounded-full "
             >
               Přihlásit se na setkání
             </a>

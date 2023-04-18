@@ -48,14 +48,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/bylinkova_setkani"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -90,14 +90,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/henna"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -132,14 +132,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/rodicovstvi_v_pohode"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300 hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -173,14 +173,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/jarmark_svobodne_skoly"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -214,14 +214,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/jak_na_montessori_doma"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -255,14 +255,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/zdrava_snidane_pro_silne_traveni"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}
@@ -295,14 +295,14 @@ export default function VypisAkci() {
               </p>
               <Link
                 href="/masaz_vlastnima_rukama"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
               </Link>
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a> */}

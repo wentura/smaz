@@ -92,7 +92,7 @@ export default function Home({ allActions }) {
             <li>Pravidla sběru ve volné přírodě a na co dát pozor.</li>
           </ul>
           <p className="py-4">Praktický workshop: Zelené smoothie</p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScIp08QE2ftJvFb1cJn3bVRuJRUMLMFrMgV6rINprr0Otxppw/viewform"
               className="py-2 px-8 bg-cta rounded-full"
@@ -115,7 +115,7 @@ export default function Home({ allActions }) {
           <p className="py-4">
             Praktický workshop: Pesto z divoce rostoucích i pěstovaných bylin
           </p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfrGDBrDb9Dtz8tLofAp4VGeIMih4irtvQQSupRu9AJpXYm3g/viewform"
               className="py-2 px-8 bg-cta rounded-full"
@@ -142,7 +142,7 @@ export default function Home({ allActions }) {
             <li>Míchání čajových směsí.</li>
           </ul>
           <p className="py-4">Praktický workshop: Bylinková sůl </p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSejdr_E1aZUO4RD51kl2QYYFT7k7EELARrirhvDuXso_2-qMg/viewform"
               className="py-2 px-8 bg-cta rounded-full"

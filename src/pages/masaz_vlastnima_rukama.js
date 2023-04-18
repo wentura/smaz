@@ -67,7 +67,7 @@ export default function Home({ allActions }) {
           </p>
           <p className="py-2">Cena semináře: 490,-</p>
           <p className="py-2">Je potřeba se přihlásit předem.</p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScJBln0gQQLhoHsi7Ae93FGzlmLvW1DSFGtSy95NpjX9d9HBQ/viewform"
               className="py-2 px-8 bg-cta rounded-full"

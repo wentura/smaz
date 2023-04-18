@@ -31,7 +31,7 @@ export default function Clanky() {
               <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 navštívit e-shop
               </a>
@@ -67,7 +67,7 @@ export default function Clanky() {
               </p>
               <Link
                 href="/showroom"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 vstupte
               </Link>

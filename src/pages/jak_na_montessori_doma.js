@@ -88,7 +88,7 @@ export default function Home({ allActions }) {
           <p className="py-2">Běla Šestáková a Klára Dědková</p>
           <p className="py-2">Cena semináře: 190,-</p>
           <p className="py-2">Je potřeba se přihlásit předem.</p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdFQhazBuv4GzAUluCkOAm_Kc9Qi91mcCZwMNj2pw0D6TlIpQ/viewform"
               className="py-2 px-8 bg-cta rounded-full"

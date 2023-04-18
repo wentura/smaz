@@ -51,7 +51,7 @@ export default function Carousel({ posts }) {
             </p>
             <Link
               href="/hub"
-              className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md"
+              className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
             >
               pojďte dál{" "}
             </Link>

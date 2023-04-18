@@ -84,10 +84,10 @@ export default function Home({ allActions }) {
             Cena workshopu je 490,- (zahrnuje kornoutek henny a tiskové
             materiály)
           </p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScZ-bUIrDN_M5Aa_DmDmoJvRrm6BN8QdS5VNNRNT4cn0d3yIg/viewform"
-              className="py-2 px-8 bg-cta rounded-full"
+              className="py-2 px-8 bg-cta rounded-full "
             >
               Přihlásit se na workshop
             </a>

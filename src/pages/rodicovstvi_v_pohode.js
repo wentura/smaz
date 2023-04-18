@@ -94,7 +94,7 @@ export default function Home({ allActions }) {
           <p className="py-2">Těším se na společné setkání.</p>
           <p className="py-2">Nadiya J. Jindrová</p>
           <p className="py-2">Cena semináře je 390,-</p>
-          <p className="mt-2 mb-16 mx-auto text-center">
+          <p className="mt-2 mb-16 mx-auto text-center hover:scale-110 ease-in duration-300">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeviQ8iasykpIa3BaOXBSZL6cgQB4hukz27q4_bi8wHYVwaVA/viewform"
               className="py-2 px-8 bg-cta rounded-full"
