@@ -67,172 +67,6 @@ export default function VypisAkci() {
       <div className="flex flex-col md:flex-row my-8 md:flex-row-reverse">
         <div className="flex-1">
           <Image
-            src="/henna.jpg"
-            alt=""
-            width="400"
-            height="100"
-            className="w-full"
-          />
-        </div>
-        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
-          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
-            <div className="flex flex-col items-center justify-center pt-4 md:px-20">
-              <h4 className="uppercase font-light text-xs normalni pt-2">
-                4.5. 2023 17:30-20:30
-              </h4>
-              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Henna – umění na těle
-              </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
-                Henna je nejstarší 100% přírodní barvivo na světě, jež už kdysi
-                zdobilo krásnou Nefertiti či okouzlující Kleopatru. Pojďte se
-                také ozdobit hennou.
-              </p>
-              <Link
-                href="/henna"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                více informací
-              </Link>
-              {/* <a
-                href="https://www.zodpovednavyuka.cz/"
-                target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                navštívit e-shop
-              </a> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row my-8">
-        <div className="flex-1">
-          <Image
-            src="/rodicovstvi_v_pohode.jpg"
-            alt=""
-            width="400"
-            height="100"
-            className="w-full"
-          />
-        </div>
-        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
-          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
-            <div className="flex flex-col items-center justify-center pt-4 md:px-20">
-              <h4 className="uppercase font-light text-xs normalni pt-2">
-                9.5. 2023 17:30-20:00
-              </h4>
-              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Rodičovství v pohodě (konstelace)
-              </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
-                Konstelace přináší možnosti, jak nahlédnout na věci, které v
-                našem životě nefunguj tak, jak bychom si přáli. Pojďte to
-                vyzkoušet.{" "}
-              </p>
-              <Link
-                href="/rodicovstvi_v_pohode"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300 hover:scale-110 ease-in duration-300"
-              >
-                více informací
-              </Link>
-              {/* <a
-                href="https://www.zodpovednavyuka.cz/"
-                target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                navštívit e-shop
-              </a> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row my-8 md:flex-row-reverse">
-        <div className="flex-1">
-          <Image
-            src="/jarmark_svobodne_skoly.jpg"
-            alt=""
-            width="400"
-            height="100"
-            className="w-full"
-          />
-        </div>
-        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
-          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
-            <div className="flex flex-col items-center justify-center pt-4 md:px-20">
-              <h4 className="uppercase font-light text-xs normalni pt-2">
-                13.5. 2023 8:00-12:00{" "}
-              </h4>
-              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Jarmak dětí svobodné školy Safira
-              </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
-                Zajímá Vás, jak probíhá svobodné vzdělávání v praxi? Přijďte si
-                o tom popovídat.
-              </p>
-              <Link
-                href="/jarmark_svobodne_skoly"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                více informací
-              </Link>
-              {/* <a
-                href="https://www.zodpovednavyuka.cz/"
-                target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                navštívit e-shop
-              </a> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row my-8">
-        <div className="flex-1">
-          <Image
-            src="/montessori_doma.jpg"
-            alt="jak na Montessori vzdělávání doma"
-            width="400"
-            height="100"
-            className="w-full"
-          />
-        </div>
-        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
-          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
-            <div className="flex flex-col items-center justify-center pt-4 md:px-20">
-              <h4 className="uppercase font-light text-xs normalni pt-2">
-                15.5. 2023 17:30-19:30{" "}
-              </h4>
-              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Jak na Montessori doma?
-              </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
-                Připadá Vám, že je složité montessori principy využívat doma,
-                ale přesto Vás to táhne? Přijďte a uvidíte, že to tak není.
-              </p>
-              <Link
-                href="/jak_na_montessori_doma"
-                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                více informací
-              </Link>
-              {/* <a
-                href="https://www.zodpovednavyuka.cz/"
-                target="_blank"
-								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-              >
-                navštívit e-shop
-              </a> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row my-8 md:flex-row-reverse">
-        <div className="flex-1">
-          <Image
             src="/zdrava_snidane_pro_silne_traveni.jpg"
             alt=""
             width="400"
@@ -273,7 +107,7 @@ export default function VypisAkci() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="/masaze_vlastnima_rukama.jpg"
+            src="/cyklicnost_zeny.jpg"
             alt=""
             width="400"
             height="100"
@@ -282,6 +116,48 @@ export default function VypisAkci() {
         </div>
         <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+            <div className="flex flex-col items-center justify-center pt-4 md:px-20">
+              <h4 className="uppercase font-light text-xs normalni pt-2">
+                23.5. 2023 17:30-20:00
+              </h4>
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                Cykličnost ženy a ženská bylinná napářka
+              </h3>
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
+                Pojďte se potkat v kruhu s ostatními ženami a sama se sebou.
+                <br />
+                Každá z nás je jedinečná, přesto máme mnoho společného.
+              </p>
+              <Link
+                href="/cyklicnost_zeny"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                více informací
+              </Link>
+              {/* <a
+                href="https://www.zodpovednavyuka.cz/"
+                target="_blank"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                navštívit e-shop
+              </a> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col my-8 md:flex-row-reverse">
+        <div className="flex-1">
+          <Image
+            src="/masaze_vlastnima_rukama.jpg"
+            alt=""
+            width="400"
+            height="100"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20">
               <h4 className="uppercase font-light text-xs normalni pt-2">
                 25.5. 2023 18:00-20:00
@@ -299,6 +175,91 @@ export default function VypisAkci() {
               >
                 více informací
               </Link>
+
+              {/* <a
+                href="https://www.zodpovednavyuka.cz/"
+                target="_blank"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                navštívit e-shop
+              </a> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row my-8">
+        <div className="flex-1">
+          <Image
+            src="/cyklicnost_zeny.jpg"
+            alt=""
+            width="400"
+            height="100"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+            <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+              <h4 className="uppercase font-light text-xs normalni pt-2">
+                30.5. 2023 17:30-20:00
+              </h4>
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                Homeopatie rostlin
+              </h3>
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
+                Chcete pěstovat zdravé rostliny pomocí homeopatie?
+                <br />
+                Zkuste úspěšně pěstovat rostliny bez chemických prostředků.
+              </p>
+              <Link
+                href="/homeopatie_rostlin"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                více informací
+              </Link>
+              {/* <a
+                href="https://www.zodpovednavyuka.cz/"
+                target="_blank"
+								className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                navštívit e-shop
+              </a> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col my-8 md:flex-row-reverse">
+        <div className="flex-1">
+          <Image
+            src="/networking.jpg"
+            alt=""
+            width="400"
+            height="100"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
+            <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+              <h4 className="uppercase font-light text-xs normalni pt-2">
+                31. 5. 2023 17:30-19:30
+              </h4>
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                Networking: Můj projekt
+              </h3>
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4">
+                Máte svůj projekt v hlavě a váháte, jak a kde začít?
+                <br />
+                Máte svůj projekt na papíře a sbíráte odvahu vykročit?
+              </p>
+              <Link
+                href="/networking_muj_projekt"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                více informací
+              </Link>
+
               {/* <a
                 href="https://www.zodpovednavyuka.cz/"
                 target="_blank"
