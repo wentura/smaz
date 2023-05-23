@@ -86,7 +86,7 @@ export default function Home({ allActions }) {
           </p>
           <p className="py-2">
             <a
-              href="www.zbyneksvoboda.cz"
+              href="https://www.zbyneksvoboda.cz"
               target="_blank"
               className="underline"
             >
@@ -100,7 +100,7 @@ export default function Home({ allActions }) {
             <br />
             Ladím a zlepšuji e-shopy, aby Vaši zákazníci neodcházeli s prázdnou.
           </p>
-          <a href="www.zbyneksvoboda.cz" target="_blank">
+          <a href="https://www.zbyneksvoboda.cz" target="_blank">
             <Image
               alt="masáž vlastníma rukama"
               src="/zs.png"
