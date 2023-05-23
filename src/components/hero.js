@@ -26,6 +26,9 @@ export default function Hero() {
               <Link href="/#akce">kalendář akcí</Link>
             </li>
             <li>
+              <Link href="/minuleAkce">minulé akce</Link>
+            </li>
+            <li>
               {" "}
               <Link href="/#kontakt">kontakt</Link>
             </li>
