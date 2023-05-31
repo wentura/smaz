@@ -153,7 +153,7 @@ export default function Home({ allActions }) {
 
           <Image
             alt="bilinkova setkani obrazek"
-            src="/bylinkove_setkani.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539369/zodpovedny_hub/bylinkove_setkani_bkwrx3.webp"
             width={800}
             height={400}
             className="mx-auto"

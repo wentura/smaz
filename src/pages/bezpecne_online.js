@@ -102,8 +102,8 @@ export default function Home({ allActions }) {
           </p>
           <a href="https://www.zbyneksvoboda.cz" target="_blank">
             <Image
-              alt="masáž vlastníma rukama"
-              src="/zs.png"
+              alt="Zbyněk Svoboda"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685545267/zodpovedny_hub/zs_dsy9af.webp"
               width={800}
               height={400}
               className="mx-auto py-4"

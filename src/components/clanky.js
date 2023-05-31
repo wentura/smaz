@@ -7,10 +7,10 @@ export default function Clanky() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="/eshop_foto.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685539369/zodpovedny_hub/eshop_foto_qnhlce.webp"
             alt=""
-            width="600"
-            height="400"
+            width="800"
+            height="650"
             className="w-full"
           />
         </div>
@@ -43,10 +43,10 @@ export default function Clanky() {
       <div className="flex flex-col md:flex-row-reverse my-8">
         <div className="flex-1">
           <Image
-            src="/showroom.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685539374/zodpovedny_hub/showroom_aemx4o.webp"
             alt="showroom"
-            width="600"
-            height="400"
+            width="800"
+            height="600"
             className="w-full"
           />
         </div>

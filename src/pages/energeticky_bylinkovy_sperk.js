@@ -119,7 +119,7 @@ export default function Home({ allActions }) {
 
           <Image
             alt="spokojená rodina vstupuje do západu slunce, no kýč..."
-            src="/energeticky_bylinkovy_sperk.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539369/zodpovedny_hub/energeticky_bylinkovy_sperk_e6gzj1.webp"
             width={800}
             height={400}
             className="mx-auto"

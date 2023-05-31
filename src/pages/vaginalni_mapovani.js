@@ -74,7 +74,7 @@ export default function Home({ allActions }) {
           </p>
           <Image
             alt="spokojená rodina vstupuje do západu slunce, no kýč..."
-            src="/vaginalni_mapovani.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539372/zodpovedny_hub/vaginalni_mapovani_ipn0da.webp"
             width={800}
             height={400}
             className="mx-auto"

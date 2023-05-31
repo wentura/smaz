@@ -94,7 +94,7 @@ export default function Home({ allActions }) {
 
           <Image
             alt="spokojená rodina vstupuje do západu slunce, no kýč..."
-            src="/jak_mit_dost_energie.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539370/zodpovedny_hub/jak_mit_dost_energie_ub7hct.webp"
             width={800}
             height={400}
             className="mx-auto"

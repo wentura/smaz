@@ -31,9 +31,9 @@ export default function Carousel({ posts }) {
       <div className="flex-1">
         <Image
           alt="zodpovedny hub"
-          src="/zh.jpg"
-          width={800}
-          height={500}
+          src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_1600/v1685539375/zodpovedny_hub/zh_yiciza.webp"
+          width={1600}
+          height={830}
           className="w-full relative"
         />
       </div>

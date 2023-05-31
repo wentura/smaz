@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="font-mono md:pl-4 flex align-middle content-center">
           <Link href="/">
             <Image
-              src="/zh_logo.png"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539374/zodpovedny_hub/zh_logo_qlt1uv.webp"
               width={250}
               height={100}
               alt="logo Zodpovedny hub"

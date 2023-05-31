@@ -14,9 +14,9 @@ export default function Adresa() {
           className="underline"
         >
           <Image
-            src="/mapa.jpg"
-            width={400}
-            height={300}
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539371/zodpovedny_hub/mapa_eaqebf.webp"
+            width={800}
+            height={500}
             alt="mapa"
             className="w-full lg:w-2/3 shadow-md mb-4 mx-auto"
           />

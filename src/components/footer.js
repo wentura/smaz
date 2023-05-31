@@ -100,7 +100,7 @@ export default function Footer() {
         </span>
       </div>
       <img
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
         src="http://matomo.zbyneksvoboda.cz/matomo.php?idsite=3&amp;rec=1"
         className="border-0"
         alt=""

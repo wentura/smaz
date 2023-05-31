@@ -112,7 +112,7 @@ export default function Home({ allActions }) {
 
           <Image
             alt="spokojená rodina vstupuje do západu slunce, no kýč..."
-            src="/cesta_k_opravdove_intimite.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539367/zodpovedny_hub/cesta_k_opravdove_intimite_uuyk3y.webp"
             width={800}
             height={400}
             className="mx-auto"
