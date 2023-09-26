@@ -43,7 +43,9 @@ export default function Home({ allActions }) {
           <h2 className="nadpis text-2xl md:text-5xl font-extrabold text-center">
             Naše vnitřní dětská zranění
           </h2>
-          <p className="p-4 text-xs">Termín konání: 26.9. 2023 17:30 - 19:30</p>
+          <p className="p-4 text-xs">
+            Termín konání: 24.10. 2023 17:30 - 19:30
+          </p>
           {/* <p className="pt-4">Na workshopu se spolu podíváme na to:</p> */}
           <p className="py-2">
             Moje práce je mým koníčkem, dlouhodobě se věnuji psychosomatice a

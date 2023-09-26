@@ -74,7 +74,7 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                26.9. 2023 17:30 - 19:30
+                24.10. 2023 17:30 - 19:30
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
                 Naše vnitřní dětská zranění
