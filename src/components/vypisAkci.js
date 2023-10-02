@@ -163,6 +163,76 @@ export default function VypisAkci() {
         </div>
       </div>
       {/* konec-dalsi*/}
+
+      {/* dalsi-reverse*/}
+      <div className="flex flex-col my-8 md:flex-row-reverse">
+        <div className="flex-1">
+          <Image
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/zkruh12_10_qxx06r.webp"
+            alt="Ženský kruh"
+            width="800"
+            height="500"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
+            <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+              <h4 className="uppercase font-light text-xs normalni pt-2">
+                12. 10. 2023 18:00 - 20:30
+              </h4>
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                Setkání žen v kruhu
+              </h3>
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
+                Srdečně zvu na setkání v kruhu, jehož kořeny sahají do dávné
+                minulosti...
+              </p>
+              <Link
+                href="/zensky_kruh"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                více informací
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* konec-dalsi-reverse*/}
+      {/* dalsi*/}
+      <div className="flex flex-col md:flex-row my-8">
+        <div className="flex-1">
+          <Image
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/mkruh17_10_f7qzed.webp"
+            alt="Mužský kruh"
+            width="800"
+            height="500"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+          <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+            <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+              <h4 className="uppercase font-light text-xs normalni pt-2">
+                17. 10. 2023 18:00 - 20:30
+              </h4>
+              <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                Setkání v mužském kruhu
+              </h3>
+              <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
+                Nepřítel je ten, jehož příběh neznám. (autor neznámý)
+              </p>
+              <Link
+                href="/henna3"
+                className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
+              >
+                více informací
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* konec-dalsi*/}
     </>
   );
 }
