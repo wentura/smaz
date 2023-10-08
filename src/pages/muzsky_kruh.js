@@ -104,8 +104,8 @@ export default function Home({ allActions }) {
             </a>
           </p>
           <Image
-            alt="zdravá snídaně"
-            src="/zdrava_snidane_pro_silne_traveni.jpg"
+            alt="mužský kruh"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/mkruh17_10_f7qzed.webp"
             width={800}
             height={400}
             className="mx-auto"
