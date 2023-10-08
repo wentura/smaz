@@ -77,7 +77,7 @@ export default function Home({ allActions }) {
           </p>
           <Image
             alt="zdravá snídaně"
-            src="/zdrava_snidane_pro_silne_traveni.jpg"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/snidane19_10_uvqgus.webp"
             width={800}
             height={400}
             className="mx-auto"

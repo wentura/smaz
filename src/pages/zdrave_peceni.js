@@ -41,7 +41,7 @@ export default function Home({ allActions }) {
       <div className="container max-w-[800px] mx-auto bg-white my-12">
         <div className="mx-4 md:mx-2">
           <h2 className="nadpis text-2xl md:text-5xl font-extrabold text-center">
-            ZWorkshop Zdravé pečení z podzimních darů přírody - dle TČM a
+            Workshop Zdravé pečení z podzimních darů přírody - dle TČM a
             ochutnávka 5elementových dezertů
           </h2>
           <p className="p-4 text-xs">Termín konání: 26.10. 2023 17:30-20:00</p>
