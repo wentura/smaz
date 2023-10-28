@@ -29,10 +29,33 @@ export default function VypisAkci() {
           </h3>
         </div>
 
+        <div className="flex flex-col my-8 md:flex-row-reverse">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/imunita21_9_txpeqy.webp"
+              alt=""
+              width="700"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  21.9. 17.30-20:00
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Posilujeme imunitu
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col md:flex-row my-8">
           <div className="flex-1">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539369/zodpovedny_hub/energeticky_bylinkovy_sperk_e6gzj1.webp"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/detskazraneni26_9_fnxpt7.webp"
               alt=""
               width="800"
               height="500"
@@ -43,28 +66,157 @@ export default function VypisAkci() {
             <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
               <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
                 <h4 className="uppercase font-light text-xs normalni pt-2">
-                  19. 6. 2023 17:30 - 19:30
+                  24.10. 2023 17:30 - 19:30
                 </h4>
                 <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                  Energetický bylinkový šperk - tvoření a meditace
+                  Naše vnitřní dětská zranění
                 </h3>
-                <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                  Pojď si užít společné tvoření.
-                  <br />
-                  Načerpat novou energii a inspiraci z přírody!
-                </p>
-                {/* <Link
-                  href="/jak_mit_dost_energie"
-                  className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
-                >
-                  více informací
-                </Link> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-8 md:flex-row-reverse">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/daryprirody_oopmcq.webp"
+              alt=""
+              width="800"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  3. 10. 2023 18:00 - 20:30
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Podzimní dary přírody
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row my-8">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/henna5_10_rvlvhc.webp"
+              alt=""
+              width="800"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  5. 10. 2023 17:30 - 20:00
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Malování hennou
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-8 md:flex-row-reverse">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/zkruh12_10_qxx06r.webp"
+              alt=""
+              width="800"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  12. 10. 2023 18:00 - 20:30
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Setkání žen v kruhu
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row my-8">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/mkruh17_10_f7qzed.webp"
+              alt=""
+              width="800"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  17. 10. 2023 18:00 - 20:30
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Setkání v mužském kruhu
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col my-8 md:flex-row-reverse">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/snidane19_10_uvqgus.webp"
+              alt=""
+              width="800"
+              height="500"
+              className="w-full"
+            />
+          </div>
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  19.10. 2023 17:30 - 20:00
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  Zdravá snídaně pro silné trávení
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row my-8">
+          <div className="flex-1">
+            <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/podzimpeceni26_10_lbbpc5.webp"
+              alt=""
+              width="700"
+              height="500"
+              className="w-full"
+            />
+          </div>
+
+          <div className="flex-1 flex flex-col justify-center overflow-visible z-0 relative">
+            <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
+              <div className="flex flex-col items-center justify-center pt-4 md:px-20">
+                <h4 className="uppercase font-light text-xs normalni pt-2">
+                  26. 10. 2023 17:30 - 20:00
+                </h4>
+                <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
+                  WORKSHOP ZDRAVÉ PEČENÍ Z PODZIMNÍCH DARŮ PŘÍRODY - DLE TČM A
+                  OCHUTNÁVKA 5ELEMENTOVÝCH DEZERTŮ
+                </h3>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row my-8 md:flex-row-reverse">
+        <div className="flex flex-col my-8 md:flex-row-reverse">
           <div className="flex-1">
             <Image
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_700/v1685539369/zodpovedny_hub/bylinkove_setkani_bkwrx3.webp"
@@ -378,7 +530,7 @@ export default function VypisAkci() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row my-8 md:flex-row-reverse">
+        <div className="flex flex-col my-8 md:flex-row-reverse">
           <div className="flex-1">
             <Image
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685539369/zodpovedny_hub/bylinkove_setkani_bkwrx3.webp"

@@ -27,7 +27,7 @@ export default function VypisAkci() {
       <div className="flex flex-col my-8 md:flex-row-reverse">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/imunita21_9_txpeqy.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504602/zodpovedny_hub/henna_pjledh.webp"
             alt=""
             width="800"
             height="500"
@@ -38,18 +38,16 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                21.9. 17.30-20:00
+                2. 11. 2023 18:00-20:30
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Posilujeme imunitu
+                Podzimní malování hennou
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                Workshop TČM.
-                <br />
-                Posilujeme imunitu - stravou, bylinami a cvičením.
+                Podzimní čas s hennou a blízkými - další henna workshop v HUBu.
               </p>
               <Link
-                href="/tcm_imunita"
+                href="/henna-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -63,7 +61,7 @@ export default function VypisAkci() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/detskazraneni26_9_fnxpt7.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504602/zodpovedny_hub/seberizenevzdelavani_ult5dr.webp"
             alt=""
             width="800"
             height="500"
@@ -74,17 +72,18 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                24.10. 2023 17:30 - 19:30
+                7. 11. 2023 16:30-21:00
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Naše vnitřní dětská zranění
+                Sebeřízené vzdělávání v praxi
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                Moje práce je mým koníčkem, dlouhodobě se věnuji psychosomatice
-                a terapeutické práci s lidmi.
+                S radostí vás zveme na setkání zaměřené na téma sebeřízeného
+                vzdělávání, které je určeno pro všechny, jenž se zajímají o
+                alternativní přístupy k vzdělávání.
               </p>
               <Link
-                href="/psych-k"
+                href="/seberizenevzdelavani-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -98,7 +97,7 @@ export default function VypisAkci() {
       <div className="flex flex-col my-8 md:flex-row-reverse">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/daryprirody_oopmcq.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504603/zodpovedny_hub/kostivalovyworkshop_ivgwqh.webp"
             alt="Henna"
             width="800"
             height="500"
@@ -109,16 +108,13 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                3. 10. 2023 18:00 - 20:30
+                9. 11. 2023 17:30-19:30
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Podzimní dary přírody
+                Kostivalový workshop
               </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                I v čase podzimu nám příroda štědře nabízí byliny...
-              </p>
               <Link
-                href="/podzimni_dary_prirody"
+                href="/kostivalovyworkshop-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -132,7 +128,7 @@ export default function VypisAkci() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695153313/zodpovedny_hub/henna5_10_rvlvhc.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504603/zodpovedny_hub/muzskykruh_awrwcw.webp"
             alt="Recitál"
             width="800"
             height="500"
@@ -143,17 +139,16 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                5. 10. 2023 17:30 - 20:00
+                14. 11. 2023 18:00-20:30
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Malování hennou
+                Mužský kruh - Téma: Zdroje
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                Chystá se pro vás další z již takřka pravidelných mělnických
-                setkání s henna tvořením.
+                Pojďme se podívat na téma Zdroje v životě muže.
               </p>
               <Link
-                href="/henna3"
+                href="/muzskekruhy-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -179,17 +174,16 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                12. 10. 2023 18:00 - 20:30
+                15. 11. 2023 18:00-20:30
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Setkání žen v kruhu
+                Setkání žen v kruhu - Téma: Zdroje
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                Srdečně zvu na setkání v kruhu, jehož kořeny sahají do dávné
-                minulosti...
+                Co jsou mé zdroje?
               </p>
               <Link
-                href="/zensky_kruh"
+                href="/zenskekruhy-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -203,7 +197,7 @@ export default function VypisAkci() {
       <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/mkruh17_10_f7qzed.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504603/zodpovedny_hub/posilakorenuledviny_qqrnip.webp"
             alt="Mužský kruh"
             width="800"
             height="500"
@@ -214,16 +208,13 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:ml-[-10%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                17. 10. 2023 18:00 - 20:30
+                16. 11. 2023 17:30-20:00
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Setkání v mužském kruhu
+                Zima a posila kořenů - ledvin dle TČM{" "}
               </h3>
-              <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full">
-                Nepřítel je ten, jehož příběh neznám. (autor neznámý)
-              </p>
               <Link
-                href="/muzsky_kruh"
+                href="/zimaaposilakorenu-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -238,7 +229,7 @@ export default function VypisAkci() {
       <div className="flex flex-col my-8 md:flex-row-reverse">
         <div className="flex-1">
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/snidane19_10_uvqgus.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1698504602/zodpovedny_hub/bachesence_btrd45.webp"
             alt="Zdravá snídaně"
             width="800"
             height="500"
@@ -249,14 +240,14 @@ export default function VypisAkci() {
           <div className="bg-neutral-100 md:h-4/5 md:w-[110%] md:z-2 md:absolute flex">
             <div className="flex flex-col items-center justify-center pt-4 md:px-20 w-full">
               <h4 className="uppercase font-light text-xs normalni pt-2">
-                19.10. 2023 17:30 - 20:00
+                21. 11. 2023 (17:30 – 19:30)
               </h4>
               <h3 className="uppercase text-md md:text-xl xl:text-3xl pb-2 xs:pb-4 nadpis text-center">
-                Zdravá snídaně pro silné trávení
+                Bachovy esence - lékárnička (nejen) pro psychiku
               </h3>
               <p className="text-start lg:leading-7 text-xs lg:text-base px-4 w-full"></p>
               <Link
-                href="/zdrava_snidane10"
+                href="/bachovyesence-11-23"
                 className="m-4 w-60 text-center py-2 bg-cta rounded-full cursor-pointer uppercase text-xs lg:text-md hover:scale-110 ease-in duration-300"
               >
                 více informací
@@ -267,7 +258,7 @@ export default function VypisAkci() {
       </div>
       {/* konec-dalsi-reverse*/}
       {/* dalsi*/}
-      <div className="flex flex-col md:flex-row my-8">
+      {/* <div className="flex flex-col md:flex-row my-8">
         <div className="flex-1">
           <Image
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1696275986/zodpovedny_hub/podzimpeceni26_10_lbbpc5.webp"
@@ -297,7 +288,7 @@ export default function VypisAkci() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* konec-dalsi*/}
     </>
   );
