@@ -23,11 +23,16 @@ export default function Hero() {
               <Link href="https://www.zodpovednavyuka.cz/">e-shop</Link>
             </li>
             <li>
-              <Link href="/#akce">kalendář akcí</Link>
+              <Link
+                href="https://www.facebook.com/groups/785835472952121"
+                target="_blank"
+              >
+                kalendář akcí (Facebook)
+              </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/minuleAkce">minulé akce</Link>
-            </li>
+            </li> */}
             <li>
               {" "}
               <Link href="/#kontakt">kontakt</Link>
