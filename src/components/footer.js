@@ -91,7 +91,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="mx-auto max-w-md text-center py-8">
-        Zodpovědná výuka, Zodpovědný Hub &copy; 2023 <br />
+        Zodpovědná výuka, Zodpovědný Hub &copy; 2024 <br />
         <span className="text-xs underline">
           vytvořil{" "}
           <a href="https://www.zbyneksvoboda.cz/" target="_blank">
